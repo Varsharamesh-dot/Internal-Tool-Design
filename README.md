@@ -20,9 +20,8 @@ It allows internal users (merchandisers, category managers) to define categories
    cd Internal-Tool-Design
 
 ## ERD (Entity Relationship Diagram)
-
-![ERD]("C:\Users\varsh\Downloads\ER Diagram.png")
-
 ## Class Diagram
+![ERD](![ERD](diagrams/ERD.png)
+![Class Diagram](diagrams/ClassDiagram.png))
 
-![Class Diagram]("C:\Users\varsh\Downloads\Class Diagram.png")
+
