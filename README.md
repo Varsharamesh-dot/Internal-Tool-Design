@@ -18,3 +18,11 @@ It allows internal users (merchandisers, category managers) to define categories
    ```bash
    git clone https://github.com/Varsharamesh-dot/Internal-Tool-Design.git
    cd Internal-Tool-Design
+
+## ERD (Entity Relationship Diagram)
+
+![ERD]("C:\Users\varsh\Downloads\ER Diagram.png")
+
+## Class Diagram
+
+![Class Diagram]("C:\Users\varsh\Downloads\Class Diagram.png")
