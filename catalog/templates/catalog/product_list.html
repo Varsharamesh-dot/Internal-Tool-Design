@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products List</title>
+</head>
+<body>
+    <h1>Products</h1>
+    <ul>
+        {% for product in products %}
+            <li>
+                <strong>{{ product.name }}</strong> - {{ product.category.name }} - Price: {{ product.price }}
+                <ul>
+                    {% for attr_value in product.productattributevalue_set.all %}
+                        <li>{{ attr_value.attribute.name }}: {{ attr_value.value }}</li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
